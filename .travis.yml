@@ -1,0 +1,17 @@
+after_script:
+  - docker images
+
+before_script:
+  - cd "$VERSION"
+  - IMAGE="monero:${VERSION/\//-}"
+
+env:
+  - VERSION=0.14.1.2
+
+language: bash
+
+script:
+  - docker build -t "$IMAGE" .
+  - docker run "$IMAGE" --version | grep "Monero"
+
+services: docker
