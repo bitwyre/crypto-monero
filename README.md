@@ -1,4 +1,4 @@
-# Bitwyre's Monero Container
+# Bitwyre's Monero
 
 [![Docker Stars](https://img.shields.io/docker/stars/bitwyre/crypto-monero.svg)](https://hub.docker.com/r/bitwyre/crypto-monero/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/bitwyre/crypto-monero.svg)](https://hub.docker.com/r/bitwyre/crypto-monero/)
@@ -6,8 +6,8 @@
 
 Runs the Monero monerod full-node in a container.
 
-## TODO
+Copyright (C) 2020, Bitwyre Technologies LLC.
 
-- Config files
-- Volume mounts for blockchain and config
-- Env setting injection
+## Authors
+
+- [Yefta Sutanto](https://github.com/nevrending)
